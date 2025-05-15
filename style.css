@@ -6,6 +6,10 @@ h2 {
     font-family: "Tahoma";
 }
 
+h3 {
+    font-family: "Tahoma";
+}
+
 li {
     font-family: "Tahoma";
 }
@@ -14,12 +18,35 @@ p {
     font-family: "Arial";
 }
 
+a {
+    text-decoration: none;
+}
+
+p img {
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin-right: 50%;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main{
     background-color: white;
 }
 
-.main div{
+.mian{
     background-color: white;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 50px;
 }
 footer {
     position:fixed;
@@ -35,7 +62,7 @@ footer {
 header {
     position:fixed;
     width: 100%;
-    height: 8%;
+    height: 47px;
     left:0;
     top:0;
     background-color: whitesmoke;
@@ -43,17 +70,33 @@ header {
     color: rgb(0, 0, 0);
     text-align: left;
     float: right;
+    z-index: 10;
   }
+
+header h3 {
+    margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+
+    aside {
+        display: none;
+    }
+
+    aside img {
+        display: none;
+    }
+}
 
 aside {
     position:fixed;
     margin-top: 40px;
     left: 0;
-    width: 10%;
+    width: 150px;
     height: 100%;
     padding-left: 20px;
     padding-bottom: 20px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.519);
     box-shadow: 0px 5px 10px grey;
     color: black;
     z-index: -1;
@@ -70,11 +113,22 @@ aside img {
 }
 
 article{
-    right: 0;
-    margin-top: 130px;
-    margin-left: 20%;
-    width: 66%;
+    margin-top: 57px;
+    margin-bottom: 13px;
+    margin-left: 22%;
+    margin-right: auto;
+    width: 70%;
     float: left;
+    z-index: -2;
+}
+
+article img {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+.mian img{
+    height: auto;
 }
 
 li {
@@ -96,7 +150,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #eb1c1c;
+    background-color: purple;
     color: white;
 }
 
@@ -104,7 +158,6 @@ ul {
     position: fixed;
     list-style-type: none;
     margin: 0;
-    margin-left: 28%;
     overflow: hidden;
     top: 0;
     right: 0;
@@ -135,5 +188,8 @@ header .ico{
 .bgs {
     position: fixed;
     z-index: -100;
+    left: 0;
     width: 100%;
+    height: 100%;
+    object-fit: fill;
 }

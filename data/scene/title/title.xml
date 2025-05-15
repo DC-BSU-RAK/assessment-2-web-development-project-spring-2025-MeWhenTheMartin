@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="4">
+	<mutable id="150" xposition="0" yposition="0"/>
+	<mutable id="140" xposition="0" yposition="352"/>
+	<mutable id="130" xposition="468" yposition="480"/>
+	<mutable id="120" xposition="0" yposition="368"/>
+	<mutable id="110" xposition="0" yposition="269"/>
+	<static id="420" xposition="0" yposition="0" mirror="0">
+		<image name="2_menu_black.bmp" xposition="0" yposition="0" width="160" height="480"/>
+	</static>
+	<mutable id="200" xposition="0" yposition="60"/>
+	<static id="210" xposition="-13" yposition="47" mirror="0">
+		<image name="2_menu_hari.bmp" xposition="0" yposition="0" width="86" height="57"/>
+	</static>
+	<mutable id="300" xposition="7" yposition="88"/>
+	<static id="400" xposition="120" yposition="60" mirror="0">
+		<image name="2_title.bmp" xposition="24" yposition="19" width="352" height="161"/>
+	</static>
+	<static id="410" xposition="136" yposition="458" mirror="0">
+		<image name="2_copyright.bmp" xposition="0" yposition="0" width="368" height="14"/>
+	</static>
+</layout>
