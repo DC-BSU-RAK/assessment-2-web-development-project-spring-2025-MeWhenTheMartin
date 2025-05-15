@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="4">
+	<static id="500" xposition="323" yposition="203" mirror="0">
+		<image name="bg_cursor2.bmp" xposition="0" yposition="0" width="317" height="58"/>
+	</static>
+	<static id="501" xposition="625" yposition="173" mirror="0">
+		<image name="c_CharacterSelect.bmp" xposition="0" yposition="0" width="12" height="118"/>
+	</static>
+	<static id="502" xposition="625" yposition="173" mirror="0">
+		<image name="c_ScenarioSelect1.bmp" xposition="0" yposition="4" width="12" height="110"/>
+	</static>
+	<static id="300" xposition="32" yposition="380" mirror="0">
+		<image name="chr_profile1.bmp" xposition="0" yposition="12" width="216" height="20"/>
+	</static>
+	<mutable id="100" xposition="484" yposition="273"/>
+	<static id="400" xposition="0" yposition="0" mirror="0">
+		<image name="title.bmp" xposition="0" yposition="0" width="640" height="16"/>
+	</static>
+	<static id="401" xposition="0" yposition="0" mirror="0">
+		<image name="00a_character_select.bmp" xposition="0" yposition="0" width="640" height="16"/>
+	</static>
+	<mutable id="200" xposition="352" yposition="201"/>
+</layout>

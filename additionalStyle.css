@@ -4,6 +4,12 @@
      font-family: "Tahoma";
 }
 
+.remiia img{
+    float: left;
+    margin: auto;
+    size: 50%;
+}
+
 div .banner img{
     box-shadow: 0px 10px 20px gray;
     object-fit: cover;
@@ -38,8 +44,20 @@ div .banner img{
 div .gallery {
   overflow: auto;
   white-space: nowrap;
+  background-image: url('data/scene/select/bg.png');
 }
 
 div .gallery img {
     height: 150px;
+}
+
+div .music {
+    color: white;
+    background-image: url('data/scene/select/bg.png');
+    vertical-align: middle;
+    text-align:center;
+}
+
+div .music p {
+    margin-top: 500px;
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="4">
+	<mutable id="100" xposition="144" yposition="208"/>
+	<mutable id="200" xposition="0" yposition="214"/>
+	<mutable id="300" xposition="640" yposition="256"/>
+	<static id="500" xposition="55" yposition="184" mirror="0">
+		<image name="bg_cursor0.bmp" xposition="7" yposition="6" width="19" height="20"/>
+	</static>
+	<static id="501" xposition="55" yposition="264" mirror="0">
+		<image name="bg_cursor1.bmp" xposition="7" yposition="6" width="19" height="20"/>
+	</static>
+	<static id="502" xposition="530" yposition="242" mirror="0">
+		<image name="bg_music_select.bmp" xposition="0" yposition="0" width="96" height="12"/>
+	</static>
+	<static id="0" xposition="0" yposition="0" mirror="0">
+		<image name="bg_select.bmp" xposition="0" yposition="0" width="640" height="17"/>
+	</static>
+</layout>
